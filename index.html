@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Replyflow — AI-Powered Customer Support for eCommerce</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+    * { font-family: 'Inter', sans-serif; }
+    .gradient-text { background: linear-gradient(135deg, #3b82f6, #8b5cf6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .hero-glow { background: radial-gradient(ellipse at 50% 0%, rgba(59,130,246,0.15) 0%, transparent 70%); }
+  </style>
+</head>
+<body class="bg-[#0a0a0f] text-white">
+
+  <!-- Nav -->
+  <nav class="fixed top-0 w-full z-50 border-b border-white/5 backdrop-blur-md bg-[#0a0a0f]/80">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <div class="w-7 h-7 bg-blue-500 rounded-lg flex items-center justify-center">
+          <span class="text-white font-bold text-xs">R</span>
+        </div>
+        <span class="font-semibold text-white">Replyflow</span>
+      </div>
+      <div class="hidden md:flex items-center gap-8 text-sm text-gray-400">
+        <a href="#features" class="hover:text-white transition-colors">Features</a>
+        <a href="#how" class="hover:text-white transition-colors">How it works</a>
+        <a href="#pricing" class="hover:text-white transition-colors">Pricing</a>
+      </div>
+      <a href="#cta" class="bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium px-4 py-2 rounded-lg transition-colors">Get a demo</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero-glow pt-32 pb-24 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <div class="inline-flex items-center gap-2 bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-medium px-3 py-1.5 rounded-full mb-6">
+        <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
+        AI-powered · Built for eCommerce
+      </div>
+      <h1 class="text-5xl md:text-6xl font-bold leading-tight mb-6">
+        Reply to every customer<br>
+        <span class="gradient-text">10x faster with AI</span>
+      </h1>
+      <p class="text-xl text-gray-400 mb-10 max-w-2xl mx-auto leading-relaxed">
+        Replyflow replaces eDesk, Gorgias, and Zendesk with an AI that knows your products, your customers, and your history — and drafts the perfect reply instantly.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-3 justify-center">
+        <a href="#cta" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-3.5 rounded-xl transition-colors text-sm">Book a free demo</a>
+        <a href="#how" class="bg-white/5 hover:bg-white/10 text-white font-medium px-8 py-3.5 rounded-xl transition-colors text-sm border border-white/10">See how it works</a>
+      </div>
+      <p class="text-gray-500 text-sm mt-5">No contract. Setup in 48 hours. Cancel anytime.</p>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="border-y border-white/5 py-12 px-6">
+    <div class="max-w-4xl mx-auto grid grid-cols-3 gap-8 text-center">
+      <div>
+        <p class="text-4xl font-bold text-white">60%</p>
+        <p class="text-gray-400 text-sm mt-1">Reduction in response time</p>
+      </div>
+      <div>
+        <p class="text-4xl font-bold text-white">90%</p>
+        <p class="text-gray-400 text-sm mt-1">AI reply accuracy</p>
+      </div>
+      <div>
+        <p class="text-4xl font-bold text-white">48h</p>
+        <p class="text-gray-400 text-sm mt-1">To go live</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="py-24 px-6">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-4">Everything your support team needs</h2>
+      <p class="text-gray-400 text-center mb-16 max-w-xl mx-auto">Stop paying for software that makes your team do the work. Let AI do it.</p>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white/3 border border-white/8 rounded-2xl p-6 hover:border-blue-500/30 transition-colors">
+          <div class="w-10 h-10 bg-blue-500/15 rounded-xl flex items-center justify-center mb-4 text-xl">🧠</div>
+          <h3 class="font-semibold mb-2">Knows your products</h3>
+          <p class="text-gray-400 text-sm leading-relaxed">Ingests your full product catalogue, specs, and compatibility data. Answers "will this fit my car?" in seconds.</p>
+        </div>
+        <div class="bg-white/3 border border-white/8 rounded-2xl p-6 hover:border-blue-500/30 transition-colors">
+          <div class="w-10 h-10 bg-purple-500/15 rounded-xl flex items-center justify-center mb-4 text-xl">⚡</div>
+          <h3 class="font-semibold mb-2">AI-drafted replies</h3>
+          <p class="text-gray-400 text-sm leading-relaxed">One click generates a professional, accurate reply. Your team reviews, edits, and sends. No more starting from scratch.</p>
+        </div>
+        <div class="bg-white/3 border border-white/8 rounded-2xl p-6 hover:border-blue-500/30 transition-colors">
+          <div class="w-10 h-10 bg-green-500/15 rounded-xl flex items-center justify-center mb-4 text-xl">🔗</div>
+          <h3 class="font-semibold mb-2">Connects everything</h3>
+          <p class="text-gray-400 text-sm leading-relaxed">Amazon, eBay, Shopify, email — all tickets in one inbox. Full order history pulled automatically.</p>
+        </div>
+        <div class="bg-white/3 border border-white/8 rounded-2xl p-6 hover:border-blue-500/30 transition-colors">
+          <div class="w-10 h-10 bg-amber-500/15 rounded-xl flex items-center justify-center mb-4 text-xl">📈</div>
+          <h3 class="font-semibold mb-2">Gets smarter over time</h3>
+          <p class="text-gray-400 text-sm leading-relaxed">Every resolved ticket trains the AI. The longer you use it, the better it gets at your specific products and customers.</p>
+        </div>
+        <div class="bg-white/3 border border-white/8 rounded-2xl p-6 hover:border-blue-500/30 transition-colors">
+          <div class="w-10 h-10 bg-red-500/15 rounded-xl flex items-center justify-center mb-4 text-xl">🎯</div>
+          <h3 class="font-semibold mb-2">Custom to your brand</h3>
+          <p class="text-gray-400 text-sm leading-relaxed">Replies match your tone, your policies, and your brand voice. Not generic chatbot responses.</p>
+        </div>
+        <div class="bg-white/3 border border-white/8 rounded-2xl p-6 hover:border-blue-500/30 transition-colors">
+          <div class="w-10 h-10 bg-teal-500/15 rounded-xl flex items-center justify-center mb-4 text-xl">🔒</div>
+          <h3 class="font-semibold mb-2">Secure & private</h3>
+          <p class="text-gray-400 text-sm leading-relaxed">Your data never trains public models. GDPR compliant. Your customer data stays yours.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section id="how" class="py-24 px-6 border-t border-white/5">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-4">Live in 48 hours</h2>
+      <p class="text-gray-400 mb-16">We handle the setup. You handle the sales.</p>
+      <div class="space-y-6 text-left">
+        {[
+          ['01', 'We onboard your data', 'Product catalogue, order history, past tickets — we ingest it all and build your AI knowledge base.'],
+          ['02', 'We configure your inbox', 'Connect Amazon, eBay, email, or any channel. All tickets flow into one clean dashboard.'],
+          ['03', 'Your team starts replying', 'Open a ticket, click Generate, review the AI reply, hit send. That simple.'],
+        ].map(([num, title, desc]) => '')}
+      </div>
+      <div class="space-y-4 text-left">
+        <div class="flex gap-5 items-start bg-white/3 border border-white/8 rounded-2xl p-6">
+          <span class="text-blue-500 font-bold text-lg flex-shrink-0">01</span>
+          <div>
+            <h3 class="font-semibold mb-1">We onboard your data</h3>
+            <p class="text-gray-400 text-sm">Product catalogue, order history, past tickets — we ingest it all and build your AI knowledge base.</p>
+          </div>
+        </div>
+        <div class="flex gap-5 items-start bg-white/3 border border-white/8 rounded-2xl p-6">
+          <span class="text-blue-500 font-bold text-lg flex-shrink-0">02</span>
+          <div>
+            <h3 class="font-semibold mb-1">We connect your channels</h3>
+            <p class="text-gray-400 text-sm">Amazon, eBay, email, your website — all tickets in one inbox automatically.</p>
+          </div>
+        </div>
+        <div class="flex gap-5 items-start bg-white/3 border border-white/8 rounded-2xl p-6">
+          <span class="text-blue-500 font-bold text-lg flex-shrink-0">03</span>
+          <div>
+            <h3 class="font-semibold mb-1">Your team replies 10x faster</h3>
+            <p class="text-gray-400 text-sm">Open ticket → click Generate → review → send. One workflow. No thinking required.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="py-24 px-6 border-t border-white/5">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-4">Simple, transparent pricing</h2>
+      <p class="text-gray-400 mb-16">One price. Everything included. No per-seat fees.</p>
+      <div class="grid md:grid-cols-2 gap-6 max-w-2xl mx-auto">
+        <div class="bg-white/3 border border-white/8 rounded-2xl p-8 text-left">
+          <p class="text-sm text-gray-400 font-medium mb-2">Starter</p>
+          <p class="text-4xl font-bold mb-1">£499<span class="text-gray-400 text-lg font-normal">/mo</span></p>
+          <p class="text-gray-400 text-sm mb-6">+ £1,500 one-time setup</p>
+          <ul class="space-y-3 text-sm text-gray-300">
+            <li class="flex items-center gap-2"><span class="text-green-400">✓</span> Up to 500 tickets/month</li>
+            <li class="flex items-center gap-2"><span class="text-green-400">✓</span> AI reply generation</li>
+            <li class="flex items-center gap-2"><span class="text-green-400">✓</span> Product catalogue ingestion</li>
+            <li class="flex items-center gap-2"><span class="text-green-400">✓</span> 1 channel (email or Amazon)</li>
+            <li class="flex items-center gap-2"><span class="text-green-400">✓</span> Setup in 48 hours</li>
+          </ul>
+        </div>
+        <div class="bg-blue-600/10 border border-blue-500/30 rounded-2xl p-8 text-left relative">
+          <span class="absolute top-4 right-4 bg-blue-500 text-white text-xs font-medium px-2 py-0.5 rounded-full">Popular</span>
+          <p class="text-sm text-blue-400 font-medium mb-2">Growth</p>
+          <p class="text-4xl font-bold mb-1">£999<span class="text-gray-400 text-lg font-normal">/mo</span></p>
+          <p class="text-gray-400 text-sm mb-6">+ £2,500 one-time setup</p>
+          <ul class="space-y-3 text-sm text-gray-300">
+            <li class="flex items-center gap-2"><span class="text-green-400">✓</span> Unlimited tickets</li>
+            <li class="flex items-center gap-2"><span class="text-green-400">✓</span> AI reply generation</li>
+            <li class="flex items-center gap-2"><span class="text-green-400">✓</span> Full product + order sync</li>
+            <li class="flex items-center gap-2"><span class="text-green-400">✓</span> All channels (Amazon, eBay, email)</li>
+            <li class="flex items-center gap-2"><span class="text-green-400">✓</span> Priority support + monthly review</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="cta" class="py-24 px-6 border-t border-white/5">
+    <div class="max-w-2xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-4">Ready to cut response time by 60%?</h2>
+      <p class="text-gray-400 mb-8">Book a 20-minute demo. We'll show you exactly how it works for your business.</p>
+      <form class="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
+        <input type="email" placeholder="your@email.com" class="flex-1 bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-blue-500">
+        <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-xl transition-colors text-sm whitespace-nowrap">Book a demo</button>
+      </form>
+      <p class="text-gray-500 text-xs mt-4">We'll respond within 24 hours.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-white/5 py-8 px-6 text-center text-gray-500 text-sm">
+    <p>© 2026 Replyflow. Built with AI. ⚡</p>
+  </footer>
+
+</body>
+</html>
